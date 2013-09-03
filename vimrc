@@ -13,6 +13,8 @@ Bundle 'Blackrush/vim-gocode'
 Bundle "pangloss/vim-javascript"
 Bundle 'SirVer/ultisnips'
 Bundle 'scrooloose/nerdcommenter'
+Bundle 'kchmck/vim-coffee-script'
+Bundle 'godlygeek/tabular'
 
 Bundle 'bling/vim-airline'
 set laststatus=2
