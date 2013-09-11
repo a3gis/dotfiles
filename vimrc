@@ -48,3 +48,11 @@ let mapleader=','
 
 " UltiSnips mappings
 let g:UltiSnipsJumpForwardTrigger="<tab>"
+
+" Prevent UltiSnips from stealing ctrl-k.
+augroup VimStartup
+	autocmd!
+	autocmd VimEnter * sil! iunmap <c-k>
+augroup end
+" Use ctrl-b instead.
+let g:UltiSnipsJumpBackwardTrigger = "<c-b>"
