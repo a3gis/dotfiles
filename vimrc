@@ -26,7 +26,6 @@ let g:syntastic_echo_current_error=1
 
 Bundle 'bling/vim-bufferline'
 Bundle 'majutsushi/tagbar'
-Bundle 'tpope/vim-surround'
 
 " EasyMotion
 Bundle 'Lokaltog/vim-easymotion'
@@ -48,11 +47,10 @@ let mapleader=','
 
 " UltiSnips mappings
 let g:UltiSnipsJumpForwardTrigger="<tab>"
+let g:UltiSnipsJumpBackwardTrigger = "<c-b>"
 
 " Prevent UltiSnips from stealing ctrl-k.
 augroup VimStartup
 	autocmd!
 	autocmd VimEnter * sil! iunmap <c-k>
 augroup end
-" Use ctrl-b instead.
-let g:UltiSnipsJumpBackwardTrigger = "<c-b>"
