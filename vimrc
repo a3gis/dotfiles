@@ -55,3 +55,6 @@ augroup VimStartup
 	autocmd!
 	autocmd VimEnter * sil! iunmap <c-k>
 augroup end
+
+" Gnome
+set t_Co=256
