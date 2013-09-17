@@ -14,6 +14,7 @@ Bundle 'scrooloose/nerdcommenter'
 Bundle 'kchmck/vim-coffee-script'
 Bundle 'godlygeek/tabular'
 Bundle 'tpope/vim-fugitive'
+Bundle 'Twinside/vim-hoogle'
 
 Bundle 'bling/vim-airline'
 set laststatus=2
