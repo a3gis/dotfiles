@@ -1,6 +1,7 @@
 set runtimepath+=/usr/local/go/misc/vim
-filetype plugin indent on
 syntax on
+
+filetype off
 
 set rtp+=~/.vim/bundle/vundle/
 call vundle#rc()
@@ -15,6 +16,7 @@ Bundle 'kchmck/vim-coffee-script'
 Bundle 'godlygeek/tabular'
 Bundle 'tpope/vim-fugitive'
 Bundle 'Twinside/vim-hoogle'
+Bundle 'alunny/pegjs-vim'
 
 Bundle 'bling/vim-airline'
 set laststatus=2
@@ -59,3 +61,6 @@ augroup end
 
 " Gnome
 set t_Co=256
+
+" Re-active filetype
+filetype plugin indent on
