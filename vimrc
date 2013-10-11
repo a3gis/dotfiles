@@ -17,6 +17,7 @@ Bundle 'godlygeek/tabular'
 Bundle 'tpope/vim-fugitive'
 Bundle 'Twinside/vim-hoogle'
 Bundle 'alunny/pegjs-vim'
+Bundle 'tpope/vim-haml'
 
 Bundle 'bling/vim-airline'
 set laststatus=2
