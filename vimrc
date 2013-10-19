@@ -15,7 +15,6 @@ Bundle 'scrooloose/nerdcommenter'
 Bundle 'kchmck/vim-coffee-script'
 Bundle 'godlygeek/tabular'
 Bundle 'tpope/vim-fugitive'
-Bundle 'Twinside/vim-hoogle'
 Bundle 'alunny/pegjs-vim'
 Bundle 'tpope/vim-haml'
 
