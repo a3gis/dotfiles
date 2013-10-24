@@ -36,7 +36,7 @@ Bundle 'Lokaltog/vim-easymotion'
 let g:EasyMotion_leader_key = '<Leader>'
 
 " Color scheme
-colorscheme zenburn " grb256
+colorscheme zenburn " grb256 elflord
 
 " Tab size
 set smartindent
