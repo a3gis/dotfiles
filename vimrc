@@ -49,6 +49,13 @@ set ruler
 " Leader
 let mapleader=','
 
+" Disable Arrow keys in Escape mode (imap for insert mode)
+map <up> <nop>
+map <down> <nop>
+map <left> <nop>
+map <right> <nop>
+
+
 " UltiSnips mappings
 let g:UltiSnipsJumpForwardTrigger="<tab>"
 let g:UltiSnipsJumpBackwardTrigger = "<c-b>"
