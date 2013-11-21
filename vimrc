@@ -6,6 +6,7 @@ filetype off
 set rtp+=~/.vim/bundle/vundle/
 call vundle#rc()
 
+Bundle 'wting/rust.vim'
 Bundle 'derekwyatt/vim-scala'
 Bundle 'gmarik/vundle'
 Bundle 'kien/ctrlp.vim'

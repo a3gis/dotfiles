@@ -11,7 +11,8 @@ import Data.Monoid
 import Control.Monad.IO.Class
 
 -- You must set your prompt to a lambda, it's a law.
-:set prompt "λ> "
+-- Commented because it disturbs haskell-mode emacs
+:set prompt "Prelude> "
 
 :set -fno-warn-unused-imports
 :def hoogle \s -> return $ ":! hoogle --count=15 \"" ++ s ++ "\""
